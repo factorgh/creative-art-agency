@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Search, Filter, Calendar, DollarSign, MapPin, Clock, ExternalLink } from 'lucide-react';
+import { Search, Calendar, DollarSign, MapPin, ExternalLink } from 'lucide-react';
 import { mockOpportunities } from '@/data/mockData';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';

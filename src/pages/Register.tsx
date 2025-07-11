@@ -13,6 +13,7 @@ import { creativeDomains } from '@/data/domains';
 const Register = () => {
   const [selectedType, setSelectedType] = useState('');
   const [currentStep, setCurrentStep] = useState(1);
+
   const [formData, setFormData] = useState({
     type: '',
     firstName: '',
@@ -25,6 +26,9 @@ const Register = () => {
     agreeTerms: false
   });
 
+  console.log(formData);
+  console.log(selectedType);
+  console.log(currentStep);
   const registrationTypes = [
     {
       id: 'artist',

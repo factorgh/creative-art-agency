@@ -17,12 +17,12 @@ const Footer = () => {
     { name: 'Marketplace', href: '/marketplace' }
   ];
 
-  const resources = [
-    { name: 'News & Updates', href: '/news' },
-    { name: 'Events', href: '/events' },
-    { name: 'Partnerships', href: '/partnerships' },
-    { name: 'Contact', href: '/contact' }
-  ];
+  // const resources = [
+  //   { name: 'News & Updates', href: '/news' },
+  //   { name: 'Events', href: '/events' },
+  //   { name: 'Partnerships', href: '/partnerships' },
+  //   { name: 'Contact', href: '/contact' }
+  // ];
 
   const socialLinks = [
     { name: 'Facebook', icon: Facebook, href: '#', color: 'hover:text-blue-500' },

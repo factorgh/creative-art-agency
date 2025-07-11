@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Search, Filter, ShoppingCart, Heart, Star, DollarSign } from 'lucide-react';
+import { Search, ShoppingCart, Heart, Star, DollarSign } from 'lucide-react';
 import { mockProducts } from '@/data/mockData';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Handshake, Building, Users, FileText, ExternalLink, Download, Plus } from 'lucide-react';
+import { Handshake, Building, Users, ExternalLink, Download, Plus } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';

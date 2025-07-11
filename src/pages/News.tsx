@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Search, Calendar, User, Tag, ArrowRight } from 'lucide-react';
-import { mockNews } from '@/data/mockData';
+import { Search, Calendar, User, ArrowRight } from 'lucide-react';
+
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
